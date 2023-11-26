@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1d6ea1;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #eee;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #0970b0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+		.gallery figure {
+            margin: 10px;
+            text-align: center;
+			width: 30%; /* Κάθε φωτογραφία να καταλαμβάνει το 30% του πλάτους */
+        }
+        .gallery img {
+            width: 100%; /* Ορίζει το πλήρες πλάτος της φωτογραφίας εντός του figure */
+            margin: 10px;
+            border-radius: 8px;
+        }
+		.gallery figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+    <title>Η εκδρομή μας στην Εσθονία</title>
+</head>
+<body>
+
+<header>
+    <h1>εκδρομή στην Εσθονία</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">οργάνωση</a>
+    <a href="#">αξιοθέατα</a>
+    <a href="#">οικονομικά στοιχεία</a>
+    <a href="#">φωτογραφίες</a>
+</nav>
+
+<div class="gallery">
+
+	<figure>
+         <img src="estonia.jpg" alt="Image 1">
+        <figcaption>πλατεία Δημαρχείου</figcaption>
+    </figure>
+    <figure>
+        <img src="tallinn1.jpg" alt="Image 2">
+        <figcaption>Caption for Image 2</figcaption>
+    </figure>
+    <figure>
+        <img src="kuda-poehat-na-novij-god-tallin.jpg" alt="Image 3">
+        <figcaption>Caption for Image 3</figcaption>
+    </figure>
+    <figure>
+         <img src="palia-poli-talin-esthonia.jpg" alt="Image 4">
+        <figcaption>Caption for Image 4</figcaption>
+    </figure>
+    <figure>
+        <img src="Tallinn-old-town.jpg" alt="Image 5">
+        <figcaption>Caption for Image 5</figcaption>
+    </figure>
+    <figure>
+        <img src="estonia3.jpg" alt="Image 6">
+        <figcaption>Caption for Image 6</figcaption>
+    </figure>
+
+
+   
+   
+   
+    
+    
+    
+</div>
+
+</body>
+</html>
