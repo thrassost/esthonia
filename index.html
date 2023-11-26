@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>εκδρομή στην Εσθονία</title>
     <style>
+
+        /* Κανόνας για το background color του body */
         body {
+            background-color: #d0daf5; /*  χρώμα φόντου */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
+        /* Στυλ για την επικεφαλίδα */
         header {
             background-color: #1d6ea1;
             color: #fff;
@@ -17,6 +22,7 @@
             text-align: center;
         }
 
+        /* Στυλ για τη γραμμή πλοήγησης */
         nav {
             display: flex;
             justify-content: space-around;
@@ -36,79 +42,83 @@
             background-color: #0970b0;
         }
 
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
+        /* Στυλ για τον κεντρικό πίνακα */
+        .center-table {
+            width: 70%;
+            margin: 0 auto; /* Κεντράρισμα του πίνακα */
+            background-color: #ADD8E6;
+            border-spacing: 20px;
         }
-		.gallery figure {
-            margin: 10px;
-            text-align: center;
-			width: 30%; /* Κάθε φωτογραφία να καταλαμβάνει το 30% του πλάτους */
+
+        /* Στυλ για το περιεχόμενο */
+        p {
+            color: blue;
         }
-        .gallery img {
-            width: 100%; /* Ορίζει το πλήρες πλάτος της φωτογραφίας εντός του figure */
-            margin: 10px;
-            border-radius: 8px;
+
+        /* Στυλ για το φόντο του πίνακα */
+        td {
+            background-color: lightblue;
+            padding: 10px;
         }
-		.gallery figcaption {
-            margin-top: 8px;
-            font-style: italic;
-            color: #666;
+
+        /* Στυλ για τη φωτογραφία */
+        .img {
+            width: 80%; /* Μείωση του μεγέθους στο 80% */
+            height: auto;
+            display: block; /* Κεντράρισμα της φωτογραφίας στον περιέκτη */
+            margin: auto;
         }
+
+        /* Στυλ για τον αριθμημένο κατάλογο */
+        .ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+  
+
     </style>
-    <title>Η εκδρομή μας στην Εσθονία</title>
 </head>
 <body>
 
 <header>
-    <h1>εκδρομή στην Εσθονία</h1>
+    <h1>Εκδρομή στην Εσθονία</h1>
 </header>
 
 <nav>
-    <a href="#">Home</a>
-    <a href="#">οργάνωση</a>
-    <a href="#">αξιοθέατα</a>
-    <a href="#">οικονομικά στοιχεία</a>
-    <a href="#">φωτογραφίες</a>
+    <a href="index.html">Home</a>
+    <a href="#">Οργάνωση</a>
+    <a href="#">Αξιοθέατα</a>
+    <a href="#">Οικονομικά στοιχεία</a>
+    <a href="photo.html">Φωτογραφίες</a>
 </nav>
 
-<div class="gallery">
+<!-- Χρησιμοποιήστε τη νέα κλάση "center-table" για τον πίνακα -->
+<table class="center-table">
+    <tr>
+        <td>
+            <h1>Η Εσθονία</h1>
+            <p>Η Δημοκρατία της Εσθονίας (εσθονικά: Eesti Vabariik) είναι χώρα της βορειοανατολικής Ευρώπης και μία από τις τρεις βαλτικές χώρες. Είναι μια χώρα με πλούσια ιστορία, πανέμορφα τοπία και ποικιλία δραστηριοτήτων που μπορούν να προσφέρουν μια εξαιρετική εμπειρία για τους επισκέπτες.</p>
 
-	<figure>
-         <img src="estonia.jpg" alt="Image 1">
-        <figcaption>πλατεία Δημαρχείου</figcaption>
-    </figure>
-    <figure>
-        <img src="tallinn1.jpg" alt="Image 2">
-        <figcaption>Caption for Image 2</figcaption>
-    </figure>
-    <figure>
-        <img src="kuda-poehat-na-novij-god-tallin.jpg" alt="Image 3">
-        <figcaption>Caption for Image 3</figcaption>
-    </figure>
-    <figure>
-         <img src="palia-poli-talin-esthonia.jpg" alt="Image 4">
-        <figcaption>Caption for Image 4</figcaption>
-    </figure>
-    <figure>
-        <img src="Tallinn-old-town.jpg" alt="Image 5">
-        <figcaption>Caption for Image 5</figcaption>
-    </figure>
-    <figure>
-        <img src="estonia3.jpg" alt="Image 6">
-        <figcaption>Caption for Image 6</figcaption>
-    </figure>
+            <h2>Λόγοι να επισκεφθείτε την Εσθονία:</h2>
 
+            <ol class="ol">
+                <li><strong>Φυσική Ομορφιά:</strong> Η Εσθονία διαθέτει εκπληκτικά φυσικά τοπία, συμπεριλαμβανομένων πυκνών δασών, όμορφων λιμνών και παραλιών. Το εθνικό πάρκο Lahemaa προσφέρει μια μοναδική ευκαιρία να εξερευνήσετε τη φύση.</li>
 
-   
-   
-   
-    
-    
-    
-</div>
+                <li><strong>Πολιτιστική Κληρονομιά:</strong> Η πόλη Tallinn, η πρωτεύουσα της Εσθονίας, έχει μια πλούσια μεσαιωνική πόλη με καλά διατηρημένα κτίρια, σοκάκια και πλατείες. Η Ταλίν είναι επίσης γνωστή για τα μουσεία και τις τέχνες της.</li>
+
+                <li><strong>Τεχνολογία:</strong> Η Εσθονία είναι μια από τις πιο ψηφιακά προηγμένες χώρες στον κόσμο. Η Ταλίν είναι γνωστή για την επιχειρηματική της φιλικότητα και τις καινοτόμες τεχνολογικές λύσεις.</li>
+
+                <li><strong>Ασφάλεια:</strong> Η Εσθονία θεωρείται μια ασφαλής χώρα για τους ταξιδιώτες. Οι κάτοικοι είναι φιλόξενοι και η χώρα έχει χαμηλά επίπεδα εγκληματικότητας.</li>
+
+                <li><strong>Εκδηλώσεις και Φεστιβάλ:</strong> Η Εσθονία φιλοξενεί διάφορα φεστιβάλ και εκδηλώσεις καθ' όλη τη διάρκεια του χρόνου, συμπεριλαμβανομένων μουσικών, πολιτιστικών και τροφοδοσιακών εκδηλώσεων.</li>
+            </ol>
+        </td>
+        <td>
+            <img src="baltic_states_map.jpg" alt="Φωτογραφία 1"  class="img">
+            <img src="aeroplano.jpg" alt="Φωτογραφία 2" class="img">
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
